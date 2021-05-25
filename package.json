@@ -1,5 +1,5 @@
 {
-    "name": "tf2-currencies",
+    "name": "tf2-currencies-lite",
     "version": "1.2.4",
     "description": "Tool for handling Team Fortress 2 currencies",
     "main": "index.js",
@@ -15,20 +15,16 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Nicklason/node-tf2-currencies.git"
+        "url": "git+https://github.com/viggojonasson/node-tf2-currencies-lite.git"
     },
     "author": {
-        "name": "Nicklas Marc Pedersen",
-        "url": "https://nicklas.io"
+        "name": "Nicklas Marc Pedersen / aethez?"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/Nicklason/node-tf2-currencies/issues"
+        "url": "https://github.com/viggojonasson/node-tf2-currencies-lite/issues"
     },
-    "homepage": "https://github.com/Nicklason/node-tf2-currencies#readme",
-    "dependencies": {
-        "pluralize": "^7.0.0"
-    },
+    "homepage": "https://github.com/viggojonasson/node-tf2-currencies-lite#readme",
     "devDependencies": {
         "assert": "^1.4.1",
         "coveralls": "^3.0.3",
@@ -36,6 +32,7 @@
         "eslint-config-google": "^0.9.1",
         "istanbul": "^0.4.5",
         "mocha": "^5.2.0",
-        "nodemon": "^1.18.10"
+        "nodemon": "^1.18.10",
+        "prettier": "^2.3.0"
     }
 }
